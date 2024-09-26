@@ -45,7 +45,11 @@
             <!--today: daily/weekly/calendar tasks-->
             <div class="taskBox">
                 <h1>Today</h1>
-                <ul>
+                <form id="todayTaskForm">
+                    <input type="text" id="todayTaskInput" placeholder="Add a daily or weekly task">
+                    <button type="submit">Add</button>
+                </form>
+                <ul id="todayTaskList">
                     <li>example task one</li>
                     <li>example task two</li>
                     <li>example task three which is really really long for testing purposes</li>
@@ -54,7 +58,11 @@
             <!--to-do: one-time/multi-step tasks-->
             <div class="taskBox">
                 <h1>To-Do</h1>
-                <ul>
+                <form id="todoTaskForm">
+                    <input type="text" id="todoTaskInput" placeholder="Add a one-time task">
+                    <button type="submit">Add</button>
+                </form>
+                <ul id="todoTaskList">
                     <li>example task one</li>
                     <li>example task two</li>
                     <li>example task three</li>
@@ -63,7 +71,11 @@
             <!--health: daily/one-time/calendar tasks - health/hygeine oriented-->
             <div class="taskBox">
                 <h1>Health</h1>
-                <ul>
+                <form id="healthTaskForm">
+                    <input type="text" id="healthTaskInput" placeholder="Add a health-related task">
+                    <button type="submit">Add</button>
+                </form>
+                <ul id="healthTaskList">
                     <li>example task one</li>
                     <li>example task two</li>
                     <li>example task three</li>

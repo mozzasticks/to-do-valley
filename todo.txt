@@ -9,3 +9,4 @@
 - push notifications/alarms
 - companions (with dialogue & dialogue options)
 - tutorial popup modal
+- sync calendar with task lists
