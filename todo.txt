@@ -1,0 +1,11 @@
+- at the end of a day, say "Great job, you finished [x] tasks today!" or something else encouraging
+- user guide for how to use each task category (tips to avoid overwhelm, breaking down tasks, etc)
+- to-do: option to create a task that will re-appear a certian amt of time after completion
+- to-do: set task as priority, get special rewards for completion
+- Completing health tasks w/full health gives special points (currency? luck?)
+- market stall for css skins/borders/etc
+- work timer built-in, reward for completing, pausable, saves most frequently used timers
+- health: allow people to choose the frequency of certain tasks (ex bathing)
+- push notifications/alarms
+- companions (with dialogue & dialogue options)
+- tutorial popup modal

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Valley</title>
+    <!--TODO: add description-->
+    <link rel="stylesheet" type="text/css" href="default-style.css" />
+</head>
+<body>
+    <header id="siteHead">
+        <nav>
+            <ul id="mainNavUl">
+                <li>To-Dos</li>
+                <li>Inventory</li>
+                <li>Market</li>
+                <li>Calendar</li>
+            </ul>
+        </nav>
+        <div id="characterStats">
+            <!--Get coins by using item drops to make money-->
+            <div>Coins</div>
+            <!--Health stat improved by irl health tasks like eating/hygeine/etc-->
+            <div>Health</div>
+        </div>
+    </header>
+
+    <main>
+        <!--Character display/Inventory(Pockets) tab/Wishlist tab/Quests tab-->
+        <section id="gameviewSection">
+            <div id="gameviewButtons">
+                <button>Home</button>
+                <button>Character</button>
+                <!-- <button>Pockets</button> -->
+                <button>Pets</button>
+                <button>Wishlist</button>
+                <button>Quests</button>
+            </div>
+
+            <div id="gameviewWindow"></div>
+        </section>
+        
+        <section id="taskSection">
+            <!--today: daily/weekly/calendar tasks-->
+            <div class="taskBox">
+                <h1>Today</h1>
+                <ul>
+                    <li>example task one</li>
+                    <li>example task two</li>
+                    <li>example task three which is really really long for testing purposes</li>
+                </ul>
+            </div>
+            <!--to-do: one-time/multi-step tasks-->
+            <div class="taskBox">
+                <h1>To-Do</h1>
+                <ul>
+                    <li>example task one</li>
+                    <li>example task two</li>
+                    <li>example task three</li>
+                </ul>
+            </div>
+            <!--health: daily/one-time/calendar tasks - health/hygeine oriented-->
+            <div class="taskBox">
+                <h1>Health</h1>
+                <ul>
+                    <li>example task one</li>
+                    <li>example task two</li>
+                    <li>example task three</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>Help Guide</li>
+        </ul>
+    </footer>
+</body>
+</html>

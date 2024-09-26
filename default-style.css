@@ -1,0 +1,82 @@
+:root {
+    --accentCol: lavenderblush;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+#siteHead {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#siteHead, footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--accentCol);
+    font-weight: bold;
+}
+
+#mainNavUl, #characterStats, footer li {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mainNavUl li, #characterStats div {
+    margin: 5px;
+}
+
+#gameviewSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+}
+
+#gameviewButtons {
+    margin: 15px;
+}
+
+#gameviewWindow {
+    background-color: var(--accentCol);
+    width: 75%;
+    height: 350px;
+}
+
+#taskSection {
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-around;
+}
+
+.taskBox {
+    flex: 1 1 0px;
+    border: 2px solid var(--accentCol);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.taskBox h1 {
+    margin: 0;
+    border-bottom: 1px solid var(--accentCol);
+}
+
+footer {
+    justify-content: center;
+    position:fixed;
+    bottom:0;
+}
