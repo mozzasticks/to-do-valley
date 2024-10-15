@@ -10,3 +10,7 @@
 - companions (with dialogue & dialogue options)
 - tutorial popup modal
 - sync calendar with task lists
+- mark tasks as urgent or important or both (& sort by priority)
+
+BUGS
+- when adding a really long task, flexbox sizes are uneven
