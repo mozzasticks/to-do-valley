@@ -4,13 +4,10 @@
 - to-do: set task as priority, get special rewards for completion
 - Completing health tasks w/full health gives special points (currency? luck?)
 - market stall for css skins/borders/etc
-- work timer built-in, reward for completing, pausable, saves most frequently used timers
+- work timer built-in, reward for completing, pausable, saves timers
 - health: allow people to choose the frequency of certain tasks (ex bathing)
 - push notifications/alarms
 - companions (with dialogue & dialogue options)
 - tutorial popup modal
 - sync calendar with task lists
 - mark tasks as urgent or important or both (& sort by priority)
-
-BUGS
-- when adding a really long task, flexbox sizes are uneven

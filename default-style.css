@@ -1,5 +1,5 @@
 :root {
-    --accentCol: lavenderblush;
+    --accentCol: rgb(224, 233, 215);
 }
 
 * {
@@ -57,13 +57,13 @@ body {
 
 #taskSection {
     display: flex;
-    
-    width: 100%;
     justify-content: space-around;
 }
 
 .taskBox {
     flex: 1 1 0px;
+    width: 30%;
+    overflow-wrap: break-word;
     border: 2px solid var(--accentCol);
     border-radius: 10px;
     padding: 10px;
